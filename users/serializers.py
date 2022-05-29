@@ -1,10 +1,10 @@
 from rest_framework.serializers import ModelSerializer
 
-from question.models import Question
+from django.contrib.auth.models import User
 
 
-class QuestionSerializer(ModelSerializer):
+class UserSerializer(ModelSerializer):
     class Meta:
-        model = Question
+        model = User
         # fields = ['']
         fields = '__all__'

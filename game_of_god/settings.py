@@ -86,8 +86,8 @@ WSGI_APPLICATION = 'game_of_god.wsgi.application'
 
 DATABASES = {
     'default': {
-        'ENGINE': 'django.db.backends.postgresql_ copg2',
-        'NAME': 'd3eq4cg3ltkpcm ',
+        'ENGINE': 'django.db.backends.postgresql_psycopg2',
+        'NAME': 'd3eq4cg3ltkpcm',
         'USER': 'hffxxdtmodvyfu',
         'PASSWORD': '86b123685f97b14ac3607420add8f5eae00c64e3192221f0482d4d1eb67dc2ba',
         'HOST': 'ec2-52-48-159-67.eu-west-1.compute.amazonaws.com',

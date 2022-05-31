@@ -196,7 +196,7 @@ CORS_ALLOWED_ORIGINS = [
     "http://localhost:8081",
     "http://localhost:8000",
     "http://localhost",
-    "https://defiant1005.github.io/game_of_good-frontend-/"
+    "https://defiant1005.github.io",
 ]
 CORS_ALLOW_CREDENTIALS = True
 

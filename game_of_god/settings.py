@@ -23,7 +23,7 @@ BASE_DIR = Path(__file__).resolve().parent.parent
 SECRET_KEY = 'django-insecure-)n4ak_@(=u#wgf26=k-1m&*wc0-#t*-sasnz+hx@^jk2#l$#v0'
 
 # SECURITY WARNING: don't run with debug turned on in production!
-DEBUG = False
+DEBUG = True
 
 ALLOWED_HOSTS = ['game-of-good.herokuapp.com']
 
@@ -87,10 +87,10 @@ WSGI_APPLICATION = 'game_of_god.wsgi.application'
 DATABASES = {
     'default': {
         'ENGINE': 'django.db.backends.postgresql_psycopg2',
-        'NAME': 'd3eq4cg3ltkpcm',
-        'USER': 'hffxxdtmodvyfu',
-        'PASSWORD': '86b123685f97b14ac3607420add8f5eae00c64e3192221f0482d4d1eb67dc2ba',
-        'HOST': 'ec2-52-48-159-67.eu-west-1.compute.amazonaws.com',
+        'NAME': 'dbsq7qp4uccbke',
+        'USER': 'edqgrgnqcnnpyt',
+        'PASSWORD': '755e30ba4f3c9c99cf8a978d0b9f6b128596ab95592dabc6bf47c06ac8b570cc',
+        'HOST': 'ec2-34-231-221-151.compute-1.amazonaws.com',
         'PORT': '5432',
     }
 }
